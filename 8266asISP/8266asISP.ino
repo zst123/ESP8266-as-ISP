@@ -79,7 +79,7 @@
 
 // The standard pin configuration.
 #ifndef ARDUINO_HOODLOADER2
-#define RESET     D4 
+#define RESET     D8
 //#define LED_HB    9
 //#define LED_ERR   8
 //#define LED_PMODE 7
@@ -737,4 +737,3 @@ void avrisp() {
         SERIAL.print((char)STK_NOSYNC);
   }
 }
-
